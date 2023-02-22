@@ -77,7 +77,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h1>Settings</h1>
+                    <h1><i class="fa fa-gare"></i> Settings</h1>
                 </div>
             </div>
         </div>
@@ -121,7 +121,7 @@
         </section>
 
         <!--POSTS-->
-        <section id="posts">
+        <section id="settings">
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -132,29 +132,32 @@
                             </div>
                             <div class="card-body">
                                 <form>
-                                    <div class="form-group">
-                                        <label for="title"> Title</label>
-                                        <input type="text" class="form-control" value="Post one">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="title"> Category</label>
-                                        <select class="form-control">
-                                            <option value="">web development</option>
-                                            <option value="">Tech Gadgets</option>
-                                            <option value=""> Business</option>
-                                            <option value="">Health & Wellness</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="file">Image Upload</label>
-                                        <input type="file" class="form-control">
-                                        <small class="form-text text muted">Max Size 3mb</small>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="title">Body</label>
-                                        <textarea name="edutor1" class="form-control"></textarea>
-        
-                                    </div>
+                                    <fieldset class="form-group">
+                                        <legend>Allow User Registrarions</legend>
+                                        <div class="form-check">
+                                            <label for="form-check-label">
+                                                <input type="radio" class="form-check-label" value="yes" checked> Yes
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label for="form-check-label">
+                                                <input type="radio" class="form-check-label" value="no" checked> No
+                                            </label>
+                                        </div>
+                                    </fieldset>
+                                    <fieldset class="form-group">
+                                        <legend>Homepage Format</legend>
+                                        <div class="form-check">
+                                            <label for="form-check-label">
+                                                <input type="radio" class="form-check-label" value="post" checked> Post Index
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <label for="form-check-label">
+                                                <input type="radio" class="form-check-label" value="page" checked> Single Page
+                                            </label>
+                                        </div>
+                                    </fieldset>
                                 </form>
                             </div>
                         </div>
